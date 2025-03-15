@@ -38,8 +38,14 @@ The dataset (`spam.csv`) contains **emails labeled as "spam" or "ham"**:
 - Split data into **80% training, 20% testing**.  
 
 ### 4️⃣ Performance Metrics  
-- **Accuracy**: `xx%` *(update this with actual accuracy from your notebook)*  
-- **Classification Report**: *(Precision, Recall, F1-score, etc.)*  
+- **Accuracy**: `97.2%`   
+- **Classification Report**:
+
+       Precision (Spam Detection): 100% (No false positives)
+
+       Recall (Spam Detection): 79% (Some spam messages missed)¶
+
+       F1-score (Overall Balance): 88%
 
 ---
 
